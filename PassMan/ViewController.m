@@ -26,6 +26,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    
+    self.title = @"PASS MAN";
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"我的密码" style:UIBarButtonItemStylePlain target:self action:@selector(handleLeftItem)];
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"保存" style:UIBarButtonItemStylePlain target:self action:@selector(handleRightItem)];
+    
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    
     //self.passwordLabel.text = @"";
     self.otherLabel1.text = @"";
     self.otherLabel2.text = @"";
@@ -116,6 +124,14 @@ BOOL isShow = NO;
         isShow = YES;
         self.otherLabel2.text = [NSString stringWithFormat:@"相当于一台电脑计算%@", [PasswordGen timeToCr:self.passwordLabel.text]];
     }
+}
+
+- (void)handleLeftItem {
+    
+}
+
+- (void)handleRightItem {
+    
 }
 
 @end

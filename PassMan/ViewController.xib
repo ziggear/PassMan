@@ -58,6 +58,7 @@
                 <constraint firstItem="MNz-Wa-6zY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dwK-lf-lS9"/>
                 <constraint firstItem="MNz-Wa-6zY" firstAttribute="top" secondItem="Dhg-UA-rgW" secondAttribute="bottom" constant="14" id="eKv-OC-ggS"/>
             </constraints>
+            <nil key="simulatedTopBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
     </objects>
