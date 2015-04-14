@@ -10,10 +10,10 @@
 		0764B77E1ADCCD36004E4BEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0764B77D1ADCCD36004E4BEB /* main.m */; };
 		0764B7811ADCCD36004E4BEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0764B7801ADCCD36004E4BEB /* AppDelegate.m */; };
 		0764B7841ADCCD36004E4BEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0764B7831ADCCD36004E4BEB /* ViewController.m */; };
-		0764B7871ADCCD36004E4BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0764B7851ADCCD36004E4BEB /* Main.storyboard */; };
 		0764B7891ADCCD36004E4BEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0764B7881ADCCD36004E4BEB /* Images.xcassets */; };
-		0764B78C1ADCCD36004E4BEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0764B78A1ADCCD36004E4BEB /* LaunchScreen.xib */; };
 		0764B7981ADCCD36004E4BEB /* PassManTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0764B7971ADCCD36004E4BEB /* PassManTests.m */; };
+		0764B7A31ADCCE00004E4BEB /* PasswordGen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0764B7A21ADCCE00004E4BEB /* PasswordGen.m */; };
+		0764B7A51ADCDBCB004E4BEB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0764B7A41ADCDBCB004E4BEB /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +34,13 @@
 		0764B7801ADCCD36004E4BEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0764B7821ADCCD36004E4BEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0764B7831ADCCD36004E4BEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0764B7861ADCCD36004E4BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0764B7881ADCCD36004E4BEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0764B78B1ADCCD36004E4BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0764B7911ADCCD36004E4BEB /* PassManTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassManTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0764B7961ADCCD36004E4BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0764B7971ADCCD36004E4BEB /* PassManTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassManTests.m; sourceTree = "<group>"; };
+		0764B7A11ADCCE00004E4BEB /* PasswordGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordGen.h; sourceTree = "<group>"; };
+		0764B7A21ADCCE00004E4BEB /* PasswordGen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordGen.m; sourceTree = "<group>"; };
+		0764B7A41ADCDBCB004E4BEB /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +82,14 @@
 		0764B77A1ADCCD36004E4BEB /* PassMan */ = {
 			isa = PBXGroup;
 			children = (
+				0764B7A11ADCCE00004E4BEB /* PasswordGen.h */,
+				0764B7A21ADCCE00004E4BEB /* PasswordGen.m */,
 				0764B77F1ADCCD36004E4BEB /* AppDelegate.h */,
 				0764B7801ADCCD36004E4BEB /* AppDelegate.m */,
 				0764B7821ADCCD36004E4BEB /* ViewController.h */,
 				0764B7831ADCCD36004E4BEB /* ViewController.m */,
-				0764B7851ADCCD36004E4BEB /* Main.storyboard */,
+				0764B7A41ADCDBCB004E4BEB /* ViewController.xib */,
 				0764B7881ADCCD36004E4BEB /* Images.xcassets */,
-				0764B78A1ADCCD36004E4BEB /* LaunchScreen.xib */,
 				0764B77B1ADCCD36004E4BEB /* Supporting Files */,
 			);
 			path = PassMan;
@@ -199,8 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0764B7871ADCCD36004E4BEB /* Main.storyboard in Resources */,
-				0764B78C1ADCCD36004E4BEB /* LaunchScreen.xib in Resources */,
+				0764B7A51ADCDBCB004E4BEB /* ViewController.xib in Resources */,
 				0764B7891ADCCD36004E4BEB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0764B7841ADCCD36004E4BEB /* ViewController.m in Sources */,
+				0764B7A31ADCCE00004E4BEB /* PasswordGen.m in Sources */,
 				0764B7811ADCCD36004E4BEB /* AppDelegate.m in Sources */,
 				0764B77E1ADCCD36004E4BEB /* main.m in Sources */,
 			);
@@ -242,25 +244,6 @@
 			targetProxy = 0764B7921ADCCD36004E4BEB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0764B7851ADCCD36004E4BEB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0764B7861ADCCD36004E4BEB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0764B78A1ADCCD36004E4BEB /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0764B78B1ADCCD36004E4BEB /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0764B7991ADCCD37004E4BEB /* Debug */ = {
@@ -343,6 +326,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = PassMan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +337,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = PassMan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
